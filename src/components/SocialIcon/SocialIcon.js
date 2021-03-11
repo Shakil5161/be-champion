@@ -7,13 +7,13 @@ const SocialIcon = (props) => {
     const { strFacebook, strTwitter, strYoutube } = props.team;
     return (
         <div className="social-icon">
-            <a href={"http://"+strFacebook} target="_blank">
+            <a href={"http://"+strFacebook} target="_blank" rel="noreferrer">
                 <img src={Facebook} alt="" srcset="" />
             </a>
-            <a href={"http://"+strTwitter} target="_blank">
+            <a href={"http://"+strTwitter} target="_blank" rel="noreferrer">
                 <img src={Twitter} alt="" srcset="" />
             </a>
-            <a href={"http://"+strYoutube} target="_blank">
+            <a href={"http://"+strYoutube} target="_blank" rel="noreferrer">
                 <img src={YouTube} alt="" srcset="" />
             </a>
         </div>
